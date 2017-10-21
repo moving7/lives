@@ -1,0 +1,30 @@
+<template>
+  <div id="app">
+    <!--<img src="./assets/logo.png">-->
+    <iheader></iheader>
+    <router-view></router-view>
+    <ifooter></ifooter>
+  </div>
+</template>
+
+<script>
+import Iheader from './components/Header'
+import Ifooter from './components/Footer'
+export default {
+  name: 'app',
+  components:{
+//	Iheader,Ifooter
+  }
+}
+</script>
+
+<style>
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /*text-align: center;*/
+  color: #2c3e50;
+  margin-top: 0px;
+}
+</style>
